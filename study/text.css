@@ -1,0 +1,28 @@
+h1{
+	text-align: center;
+	text-transform: uppercase;
+	letter: 5px;
+	font-weight: 700;
+}
+p {
+	text-align: justify;
+	line-height: 24px;
+	text-indent: 24px;
+}
+.img1{
+	width: 300px;
+}
+figure {
+	border: solid 1px grey;
+	float: right;
+	padding: 20 px;
+}
+.img2{
+	float: left;
+}
+button{
+	width: 50 px;
+	color: blue;
+	border: solid 1px purple;
+}
+
