@@ -14,13 +14,22 @@
         document.writeln(count);
 
     }
-    et sum = 0;
+    let sum = 0;
 while (true) {
   let value = +prompt('Введіть число', '');
   if (!value) break; 
   sum += value;
 }
 alert( 'Сума: ' + sum );
+let num;
+do {
+  num = prompt("Введіть число, більше за 100?", 0);
+} while (num <= 100 && num!=null);
+if (num===null){
+	alert("До побачення!")
+}else{
+alert ("Ваше число: " + num)
+}
 
     </script>
 </body>
